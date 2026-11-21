@@ -1,0 +1,29 @@
+main {
+    max-width: 1000px;
+    margin: auto;
+  display: grid;
+  grid-template-columns: 20% 35% 45%;
+  grid-template-areas:
+    "header header header"
+    "nav article aside";
+}
+
+header {
+  grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+article{
+grid-area: article;
+}
+
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: grid;
+}
